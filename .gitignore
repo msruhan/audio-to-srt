@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.srt
+*.txt
+!requirements.txt
+!CARA_PAKAI.txt
+samples/*.wav
+samples/*.m4a
+samples/*.mp3
+!samples/.gitkeep

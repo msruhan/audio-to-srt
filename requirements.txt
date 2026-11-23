@@ -1,0 +1,9 @@
+faster-whisper>=1.1.0
+# faster-whisper 1.2.1 still passes metadata_errors= to av.open();
+# PyAV 19 removed that kwarg. Cap until a newer faster-whisper ships.
+av>=11,<19
+# CUDA 12 runtime wheels (Windows GPU). Script adds their bin/ to PATH.
+nvidia-cublas-cu12
+nvidia-cuda-runtime-cu12
+nvidia-cudnn-cu12
+streamlit>=1.32.0
